@@ -13,6 +13,32 @@
         android:theme="@style/Theme.MeroApplication"
         tools:targetApi="31">
         <activity
+            android:name=".First_task"
+            android:exported="false"
+            android:label="@string/title_activity_first_task"
+            android:theme="@style/Theme.MeroApplication" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.MeroApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Task1"
+            android:exported="false"
+            android:label="@string/title_activity_task1"
+            android:theme="@style/Theme.MeroApplication" />
+        <activity
+            android:name=".Task_1"
+            android:exported="false"
+            android:label="@string/title_activity_task1"
+            android:theme="@style/Theme.MeroApplication" />
+        <activity
             android:name=".login"
             android:exported="true"
             android:label="@string/title_activity_login"
