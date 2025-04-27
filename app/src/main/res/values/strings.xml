@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Mero Application</string>
     <string name="title_activity_login">login</string>
+    <string name="title_activity_task1">Task_1</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_first_task">First_task</string>
 </resources>

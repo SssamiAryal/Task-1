@@ -6,14 +6,14 @@ plugins {
 
 android {
     namespace = "com.example.meroapplication"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.meroapplication"
         minSdk = 27
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode =1
+        versionName= "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
