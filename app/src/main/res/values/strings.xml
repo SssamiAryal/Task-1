@@ -4,4 +4,5 @@
     <string name="title_activity_task1">Task_1</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_first_task">First_task</string>
+    <string name="title_activity_card">card</string>
 </resources>
