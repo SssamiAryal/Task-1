@@ -5,4 +5,8 @@
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_first_task">First_task</string>
     <string name="title_activity_card">card</string>
+    <string name="title_activity_bestttt">Bestttt</string>
+    <string name="title_activity_login_page">loginPageActivity</string>
+    <string name="title_activity_ssgnup">sSgnup</string>
+    <string name="title_activity_register">Register</string>
 </resources>

@@ -13,6 +13,43 @@
         android:theme="@style/Theme.MeroApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.MeroApplication" />
+        <activity
+            android:name=".sSgnup"
+            android:exported="false"
+            android:label="@string/title_activity_ssgnup"
+            android:theme="@style/Theme.MeroApplication" />
+        <activity
+            android:name=".loginPageActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login_page"
+            android:theme="@style/Theme.MeroApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.MeroApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bestttt"
+            android:exported="true"
+            android:label="@string/title_activity_bestttt"
+            android:theme="@style/Theme.MeroApplication" />
+        <activity
             android:name=".login"
             android:exported="true"
             android:label="@string/title_activity_login"
